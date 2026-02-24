@@ -102,7 +102,6 @@ export default function ResultPage() {
     const handleShare = async () => {
         const shareData = {
             title: '나의 AI 파트너 찾기',
-            text: `나와 딱 맞는 AI는 ${result?.primary?.name}네요! 여러분도 테스트해보세요.`,
             url: window.location.origin,
         };
         try {
