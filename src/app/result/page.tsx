@@ -177,10 +177,10 @@ export default function ResultPage() {
         }
     };
 
-    if (!result) return <div className="flex-1 bg-gray-50 dark:bg-gray-950 flex items-center justify-center p-6 min-h-[100dvh]"><div className="w-10 h-10 rounded-full border-4 border-blue-500 border-t-transparent animate-spin"></div></div>;
+    if (!result) return <div className="flex-1 bg-gray-50 dark:bg-gray-950 flex items-center justify-center p-6"><div className="w-10 h-10 rounded-full border-4 border-blue-500 border-t-transparent animate-spin"></div></div>;
 
     return (
-        <div className="flex-1 flex flex-col bg-gray-50 dark:bg-gray-950 p-6 min-h-[100dvh] relative overflow-y-auto transition-colors duration-300">
+        <div className="flex-1 flex flex-col bg-gray-50 dark:bg-gray-950 p-6 relative transition-colors duration-300">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

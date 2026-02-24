@@ -3,7 +3,7 @@ import { ArrowLeft, Code2, Sparkles } from 'lucide-react';
 
 export default function AboutPage() {
     return (
-        <div className="flex-1 flex flex-col bg-gray-50 dark:bg-gray-950 p-6 md:p-10 min-h-[100dvh] relative overflow-hidden">
+        <div className="flex-1 flex flex-col bg-gray-50 dark:bg-gray-950 p-6 md:p-10 relative">
             <Link href="/" className="inline-flex items-center text-sm font-bold text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 mb-8 transition-colors z-10 w-max">
                 <ArrowLeft className="w-4 h-4 mr-2" /> 메인으로 돌아가기
             </Link>

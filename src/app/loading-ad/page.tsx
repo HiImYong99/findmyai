@@ -39,7 +39,7 @@ export default function LoadingAdPage() {
     };
 
     return (
-        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50 dark:bg-gray-950 min-h-[100dvh] relative overflow-hidden transition-colors duration-300">
+        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50 dark:bg-gray-950 transition-colors duration-300">
             {!showAd ? (
                 <motion.div
                     initial={{ opacity: 0 }}

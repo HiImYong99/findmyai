@@ -3,19 +3,21 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ArrowLeft } from 'lucide-react';
 import { useTestStore } from '@/store/useTestStore';
 import questionsData from '@/data/questions.json';
 
 export default function TestPage() {
     const router = useRouter();
     const addAnswer = useTestStore((state) => state.addAnswer);
+    const removeLastAnswer = useTestStore((state) => state.removeLastAnswer);
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isTransitioning, setIsTransitioning] = useState(false);
 
     const question = questionsData[currentIndex];
 
-    if (!question) return <div className="flex-1 bg-gray-50 dark:bg-gray-950 min-h-[100dvh]"></div>;
+    if (!question) return <div className="flex-1 bg-gray-50 dark:bg-gray-950"></div>;
 
     const progress = ((currentIndex + 1) / questionsData.length) * 100;
 
@@ -38,9 +40,33 @@ export default function TestPage() {
         }
     };
 
+    const handleBack = () => {
+        if (isTransitioning) return;
+        if (currentIndex === 0) {
+            router.push('/');
+        } else {
+            setIsTransitioning(true);
+            removeLastAnswer();
+            setTimeout(() => {
+                setCurrentIndex((prev) => prev - 1);
+                setIsTransitioning(false);
+            }, 100);
+        }
+    };
+
     return (
-        <div className="flex-1 flex flex-col bg-gray-50 dark:bg-gray-950 p-6 pt-10 min-h-[100dvh]">
-            <div className="w-full h-2.5 bg-gray-200 dark:bg-gray-800 rounded-full mb-8 overflow-hidden shadow-inner">
+        <div className="flex-1 flex flex-col bg-gray-50 dark:bg-gray-950 p-6">
+            <div className="flex items-center mb-6 mt-4">
+                <button
+                    onClick={handleBack}
+                    className="flex items-center text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition-colors"
+                >
+                    <ArrowLeft className="w-5 h-5 mr-1" />
+                    <span className="text-sm font-bold">이전으로</span>
+                </button>
+            </div>
+
+            <div className="w-full h-2.5 bg-gray-200 dark:bg-gray-800 rounded-full mb-8 overflow-hidden shadow-inner shrink-0">
                 <motion.div
                     className="h-full bg-gradient-to-r from-blue-500 to-purple-500 dark:from-blue-400 dark:to-purple-400 rounded-full"
                     initial={{ width: `${(currentIndex / questionsData.length) * 100}%` }}
