@@ -1,0 +1,64 @@
+{
+    "services": {
+        "claude": {
+            "name": "Claude",
+            "description": "압도적인 코딩 실력과 자연스러운 글쓰기를 자랑하는 현존 최고의 텍스트 AI",
+            "url": "https://claude.ai",
+            "image": "/images/claude.png"
+        },
+        "chatgpt": {
+            "name": "ChatGPT",
+            "description": "음성, 비전, 데이터 분석까지 모두 갖춘 가장 대중적이고 강력한 올라운더 AI",
+            "url": "https://chatgpt.com",
+            "image": "/images/chatgpt.png"
+        },
+        "perplexity": {
+            "name": "Perplexity",
+            "description": "정확한 출처와 최신 정보를 찾아주는 AI 검색계의 혁명",
+            "url": "https://perplexity.ai",
+            "image": "/images/perplexity.png"
+        },
+        "midjourney": {
+            "name": "Midjourney",
+            "description": "당신의 상상력을 예술 작품으로 만들어주는 현존 최고의 이미지 생성 AI",
+            "url": "https://midjourney.com",
+            "image": "/images/midjourney.png"
+        },
+        "notebookLM": {
+            "name": "NotebookLM",
+            "description": "복잡한 문서와 노트를 완벽히 분석해주고 오디오 팟캐스트까지 만들어주는 AI 연구 보조",
+            "url": "https://notebooklm.google.com",
+            "image": "/images/notebooklm.png"
+        },
+        "gemini": {
+            "name": "Gemini",
+            "description": "구글 워크스페이스와의 뛰어난 연동성과 넓은 컨텍스트를 자랑하는 AI",
+            "url": "https://gemini.google.com",
+            "image": "/images/gemini.png"
+        },
+        "clovaX": {
+            "name": "CLOVA X",
+            "description": "한국어에 완벽히 적응된 네이버 생태계 최적화 AI 파트너",
+            "url": "https://clova-x.naver.com",
+            "image": "/images/clovax.png"
+        }
+    },
+    "plans": {
+        "free": {
+            "title": "무료 버전으로도 충분해요 💡",
+            "comment": "아직 유료 결제는 부담스러우신가요? 각 서비스의 기본 플랜만 잘 활용하셔도 업무 효율을 크게 높일 수 있습니다. (약 0원)"
+        },
+        "standard": {
+            "title": "가성비 핵심 기능 투자 💰",
+            "comment": "자주 쓰는 기능 한 개 정도를 구독하거나, 합리적인 저가 요금제(예: Perplexity Pro 연간 할인 등)에 투자해보세요. (약 13,000원 ~ 27,000원)"
+        },
+        "pro": {
+            "title": "월 20달러면 충분히 뽕 뽑습니다 🔥",
+            "comment": "커피 몇 잔 값이면 당신만의 전담 비서겸 전문가를 고용하는 것과 같습니다. 프로 요금제를 강력히 추천합니다! (약 27,000원)"
+        },
+        "max": {
+            "title": "생산성 1% AI 툴킷 마스터 🚀",
+            "comment": "용도에 맞게 여러 AI를 구독해 최고의 성과를 내보세요. 당신의 시간 단축이 곧 수익으로 직결됩니다. (약 55,000원 이상)"
+        }
+    }
+}

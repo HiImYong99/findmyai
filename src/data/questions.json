@@ -1,0 +1,363 @@
+[
+    {
+        "id": 1,
+        "question": "주로 어떤 업무를 하시나요?",
+        "options": [
+            {
+                "id": "A",
+                "text": "개발, IT 엔지니어링",
+                "scores": {
+                    "chatgpt": 2,
+                    "claude": 3,
+                    "perplexity": 0,
+                    "midjourney": 0,
+                    "gemini": 2,
+                    "notebookLM": 0,
+                    "clovaX": 1
+                }
+            },
+            {
+                "id": "B",
+                "text": "기획, 마케팅, 한국어 문서 작업",
+                "scores": {
+                    "chatgpt": 2,
+                    "claude": 3,
+                    "perplexity": 1,
+                    "midjourney": 0,
+                    "gemini": 1,
+                    "notebookLM": 1,
+                    "clovaX": 3
+                }
+            },
+            {
+                "id": "C",
+                "text": "디자인, 영상, 크리에이티브",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 0,
+                    "perplexity": 0,
+                    "midjourney": 3,
+                    "gemini": 0,
+                    "notebookLM": 0,
+                    "clovaX": 0
+                }
+            },
+            {
+                "id": "D",
+                "text": "방대한 PDF, 논문, 오디오 자료 분석",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 1,
+                    "perplexity": 3,
+                    "midjourney": 0,
+                    "gemini": 1,
+                    "notebookLM": 3,
+                    "clovaX": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "AI에게 가장 바라는 역할은 무엇인가요?",
+        "options": [
+            {
+                "id": "A",
+                "text": "복잡한 코드 작성 및 버그 수정",
+                "scores": {
+                    "chatgpt": 2,
+                    "claude": 3,
+                    "perplexity": 0,
+                    "midjourney": 0,
+                    "gemini": 1,
+                    "notebookLM": 0,
+                    "clovaX": 0
+                }
+            },
+            {
+                "id": "B",
+                "text": "수백 페이지 문서 기반 요약 및 팟캐스트 변환",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 2,
+                    "perplexity": 0,
+                    "midjourney": 0,
+                    "gemini": 1,
+                    "notebookLM": 3,
+                    "clovaX": 1
+                }
+            },
+            {
+                "id": "C",
+                "text": "최신 정보 검색 및 정확한 출처 확보",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 0,
+                    "perplexity": 3,
+                    "midjourney": 0,
+                    "gemini": 2,
+                    "notebookLM": 0,
+                    "clovaX": 1
+                }
+            },
+            {
+                "id": "D",
+                "text": "멋진 이미지나 디자인 에셋 생성",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 0,
+                    "perplexity": 0,
+                    "midjourney": 3,
+                    "gemini": 0,
+                    "notebookLM": 0,
+                    "clovaX": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "사용 중인 작업 환경이나 플랫폼은 무엇인가요?",
+        "options": [
+            {
+                "id": "A",
+                "text": "구글 워크스페이스 (Docs, Sheets 등)",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 1,
+                    "perplexity": 0,
+                    "midjourney": 0,
+                    "gemini": 3,
+                    "notebookLM": 0,
+                    "clovaX": 0
+                }
+            },
+            {
+                "id": "B",
+                "text": "네이버 생태계(블로그, 메일) 및 한글 문서",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 0,
+                    "perplexity": 0,
+                    "midjourney": 0,
+                    "gemini": 0,
+                    "notebookLM": 0,
+                    "clovaX": 3
+                }
+            },
+            {
+                "id": "C",
+                "text": "VS Code, 커맨드 라인 등 개발 환경",
+                "scores": {
+                    "chatgpt": 2,
+                    "claude": 3,
+                    "perplexity": 1,
+                    "midjourney": 0,
+                    "gemini": 1,
+                    "notebookLM": 0,
+                    "clovaX": 0
+                }
+            },
+            {
+                "id": "D",
+                "text": "PDF 리더나 노션 등 정보/지식 관리 툴",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 1,
+                    "perplexity": 3,
+                    "midjourney": 0,
+                    "gemini": 0,
+                    "notebookLM": 3,
+                    "clovaX": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "AI 사용 목적 중 무엇이 가장 크신가요?",
+        "options": [
+            {
+                "id": "A",
+                "text": "폭넓은 질문에 대한 준수한 만능 답변",
+                "scores": {
+                    "chatgpt": 3,
+                    "claude": 2,
+                    "perplexity": 1,
+                    "midjourney": 0,
+                    "gemini": 2,
+                    "notebookLM": 0,
+                    "clovaX": 1
+                }
+            },
+            {
+                "id": "B",
+                "text": "내 의도를 찰떡같이 알아듣는 섬세함",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 3,
+                    "perplexity": 0,
+                    "midjourney": 0,
+                    "gemini": 1,
+                    "notebookLM": 1,
+                    "clovaX": 2
+                }
+            },
+            {
+                "id": "C",
+                "text": "긴 문서를 요약하거나 실시간 뉴스 확인",
+                "scores": {
+                    "perplexity": 3,
+                    "chatgpt": 1,
+                    "claude": 2,
+                    "midjourney": 0,
+                    "gemini": 2,
+                    "notebookLM": 0,
+                    "clovaX": 1
+                }
+            },
+            {
+                "id": "D",
+                "text": "흩어진 내 자료들을 모아 한 번에 완벽히 분석",
+                "scores": {
+                    "midjourney": 0,
+                    "chatgpt": 1,
+                    "claude": 0,
+                    "perplexity": 0,
+                    "gemini": 0,
+                    "notebookLM": 3,
+                    "clovaX": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "다른 팀원이나 외부 인원과 자주 협업하시나요?",
+        "options": [
+            {
+                "id": "A",
+                "text": "네, 구글 문서 등으로 실시간 공동 작업을 합니다.",
+                "scores": {
+                    "chatgpt": 1,
+                    "claude": 1,
+                    "perplexity": 0,
+                    "midjourney": 0,
+                    "gemini": 3,
+                    "notebookLM": 0,
+                    "clovaX": 0
+                }
+            },
+            {
+                "id": "B",
+                "text": "주로 혼자서 고도의 집중력을 발휘해 작업합니다.",
+                "scores": {
+                    "claude": 3,
+                    "midjourney": 1,
+                    "chatgpt": 1,
+                    "perplexity": 1,
+                    "gemini": 0,
+                    "notebookLM": 1,
+                    "clovaX": 0
+                }
+            },
+            {
+                "id": "C",
+                "text": "국내 협력사/고객과 한국어로 주로 커뮤니케이션합니다.",
+                "scores": {
+                    "perplexity": 0,
+                    "chatgpt": 1,
+                    "claude": 1,
+                    "midjourney": 0,
+                    "gemini": 0,
+                    "notebookLM": 0,
+                    "clovaX": 3
+                }
+            },
+            {
+                "id": "D",
+                "text": "방대한 사내 문서/참고 문헌을 바탕으로 연구합니다.",
+                "scores": {
+                    "midjourney": 0,
+                    "claude": 1,
+                    "chatgpt": 1,
+                    "perplexity": 1,
+                    "gemini": 0,
+                    "notebookLM": 3,
+                    "clovaX": 0
+                }
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "AI 서비스에 월 얼마까지 투자할 수 있나요?",
+        "options": [
+            {
+                "id": "A",
+                "text": "무료로만 쓰고 싶어요",
+                "pricePlan": "free"
+            },
+            {
+                "id": "B",
+                "text": "필요하다면 월 1~2만원 정도는 가능",
+                "pricePlan": "standard"
+            },
+            {
+                "id": "C",
+                "text": "월 3만원(약 20달러) 결제할 의향 있음",
+                "pricePlan": "pro"
+            },
+            {
+                "id": "D",
+                "text": "최고의 성과를 위해 다중 구독도 가능",
+                "pricePlan": "max"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "AI 사용 경험은 어느 정도인가요?",
+        "options": [
+            {
+                "id": "A",
+                "text": "이제 막 써보기 시작한 초보",
+                "scores": {
+                    "chatgpt": 3,
+                    "claude": 1,
+                    "perplexity": 2,
+                    "midjourney": 0,
+                    "gemini": 2,
+                    "notebookLM": 2,
+                    "clovaX": 3
+                }
+            },
+            {
+                "id": "B",
+                "text": "어느 정도 프롬프트를 다룰 줄 앎",
+                "scores": {
+                    "chatgpt": 2,
+                    "claude": 2,
+                    "perplexity": 2,
+                    "midjourney": 1,
+                    "gemini": 2,
+                    "notebookLM": 1,
+                    "clovaX": 2
+                }
+            },
+            {
+                "id": "C",
+                "text": "다양한 고급 기능을 적극적으로 활용함",
+                "scores": {
+                    "chatgpt": 2,
+                    "claude": 3,
+                    "perplexity": 1,
+                    "midjourney": 2,
+                    "gemini": 3,
+                    "notebookLM": 1,
+                    "clovaX": 1
+                }
+            }
+        ]
+    }
+]
