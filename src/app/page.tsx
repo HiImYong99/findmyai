@@ -45,9 +45,10 @@ export default function HomePage() {
         <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
       </button>
 
-      <p className="mt-8 text-sm text-gray-400 dark:text-gray-500 font-medium">
+      <p className="mt-8 text-sm text-gray-400 dark:text-gray-500 font-medium z-10">
         약 1분 소요 · 심리테스트 기반 맞춤 추천
       </p>
+
     </motion.div>
   );
 }
