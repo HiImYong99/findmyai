@@ -56,7 +56,7 @@
    ```
 
 4. **브라우저 확인**
-   [https://ai-match-test.vercel.app/](https://ai-match-test.vercel.app/)으로 접속하여 결과를 확인하세요.
+   [https://ai-match-test.vercel.app/](https://ai-match-test.vercel.app)으로 접속하여 결과를 확인하세요.
 
 ## 📂 프로젝트 구조
 
